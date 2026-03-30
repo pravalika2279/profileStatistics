@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+	
+	
+	<listeners>
+        <listener class-name="utilities.ExtentListener"/>
+    </listeners>
+	
+  <test name="chrometest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.HeaderCheck"/>
+      <class name="testCases.ProfileStrengthCheck"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="edgetest">
+  <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.HeaderCheck"/>
+      <class name="testCases.ProfileStrengthCheck"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
