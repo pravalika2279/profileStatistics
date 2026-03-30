@@ -23,7 +23,7 @@
       <class name="testCases.ProfileStrengthCheck">
         <methods>
           <include name="tearDown"/>
-          <include name="validCheckProfileform" invocation-numbers="3 4 6 7 9"/>
+          <include name="validCheckProfileform" invocation-numbers="3 4 6 7"/>
           <include name="inits"/>
           <include name="setup"/>
         </methods>
